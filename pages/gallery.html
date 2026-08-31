@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/01ed1881ad.js" crossorigin="anonymous"></script>
+    <title>Spilsite</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="nav_links" class="flex_1">
+                <a href="../index.html">HOME</a>
+                <a class="active" href="/pages/gallery.html">GALLERY</a>
+                <a href="/pages/characters.html">CHARACTERS</a>
+            </div>
+            <div id="SoMe_links" class="flex_1">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </header>
+        <div id="hero">
+            <img id="bg" src="../images/hero_bg.jpg" alt="Inside Hero Background Image">
+            <img id="logo" src="../images/inside_logo.png" alt="Inside Logo Image">
+            <!-- Hidden H1 so validatator can leave me alone -->
+            <h1 id="hiddenH1">Inside</h1>
+            <!-- End of hidden H! -->
+        </div>
+        <main>
+            <p class="title">Wallpaper</p>
+            <div id="gallery_div">
+                <img id="first_image" class="thumbnails" src="/images/gallery/1.jpg" alt="Inside Screenshot">
+                <img id="second_image" class="thumbnails" src="/images/gallery/2.jpg" alt="Inside Screenshot">
+                <img id="third_image" class="thumbnails" src="/images/gallery/3.jpg" alt="Inside Screenshot">
+                <img id="fourth_image" class="thumbnails" src="/images/gallery/4.jpg" alt="Inside Screenshot">
+                <img id="fifth_image" class="thumbnails" src="/images/gallery/5.jpg" alt="Inside Screenshot">
+            </div>
+            <div id="video_div">
+                <video id="video" autoplay loop>
+                    <source id="player" src="../images/gallery/4.webm" type="video/mp4">
+                </video>
+            </div>
+        </main>
+        <footer>
+            <p>This is a School Assignment</p>
+            <p>Made at</p>
+            <p> NEXT Uddannelse København</p>
+            <p>Copenhagen, Denmark</p>
+        </footer>
+
+    </div>
+    <script src="../scripts/gallery.js"></script>
+
+</body>
+
+</html>

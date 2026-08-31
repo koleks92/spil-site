@@ -1,0 +1,40 @@
+@import url(standard.css);
+
+/* GALLERY STYLES */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+#gallery_div {
+    display: flex;
+    gap: 1.5em;
+}
+
+#gallery_div img {
+    border: 1px solid var(--light-white);
+}
+
+.active_video {
+    outline: 2px solid var(--white) !important;
+}
+
+
+video {
+    width: 100%;
+    border: 1px solid var(--light-white);
+}
+
+
+@media screen and (max-width:599px) {
+    #gallery_div {
+        flex-direction: column;
+    }
+
+    video,
+    .title {
+        display: none;
+    }
+}

@@ -221,8 +221,7 @@ footer {
     #SoMe_links {
         justify-content: center;
         margin: 1em 0 1em;
-        /* Made bigger for accessibility */
-        font-size: 28px;
+        font-size: 20px;
         gap: 1.5em;
     }
 

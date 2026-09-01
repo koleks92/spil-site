@@ -1,225 +1,259 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zxx">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/characters.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/characters.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/01ed1881ad.js" crossorigin="anonymous"></script>
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/01ed1881ad.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Spilsite</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="wrapper">
-        <header>
-            <div id="nav_links" class="flex_1">
-                <a href="../index.html">HOME</a>
-                <a href="/pages/gallery.html">GALLERY</a>
-                <a class="active" href="/pages/characters.html">CHARACTERS</a>
-            </div>
-            <div id="SoMe_links" class="flex_1">
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-        </header>
-        <div id="hero">
-            <img id="bg" src="../images/hero_bg.jpg" alt="Inside Hero Background Image">
-            <img id="logo" src="../images/inside_logo.png" alt="Inside Logo Image">
-            <!-- Hidden H1 so validatator can leave me alone -->
-            <h1 id="hiddenH1">Inside</h1>
-            <!-- End of hidden H! -->
+      <header>
+        <div id="nav_links" class="flex_1">
+          <a href="../index.html">HOME</a>
+          <a href="/pages/gallery.html">GALLERY</a>
+          <a class="active" href="/pages/characters.html">CHARACTERS</a>
         </div>
-        <main>
-            <!-- Character 1 -->
-            <div class="character_div">
-                <div class="flex_1 left_box">
-                    <h4 class="title">Boy (Protagonist)</h4>
-                    <p class="description">
-                        The Boy is a young male and protagonist of <span class="red">Inside</span>. Not much is known
-                        about the boy's history,
-                        name or age.
-                    </p>
-                    <span class="read_more hide" onclick="show(this)">Read more...</span>
-                    <p class="description extra">
-                        The Boy's background is mostly shrouded in mystery. All that is known about him is that
-                        security
-                        guards throughout the game either kill or capture him when he is spotted.
-                    </p>
-                    <p class="description extra">
-                        Unlike the controlled, zombie-like people present in the game, the Boy exerts
-                        self-consciousness
-                        and the ability to critically think. Like any other human, the Boy can wa lk, run, crawl,
-                        swim,
-                        and jump. The Boy also displays a surprising amount of strength, able to climb ladders and
-                        ropes
-                        quickly, pull heavy objects, and lift his body up edges.
-                    </p>
-
-                </div>
-                <div class="flex_1 right_box">
-                    <img src="../images/characters/screenshot2.png" alt="Inside Game Screenshot">
-                    <table>
-                        <caption>Biographical info</caption>
-                        <tr>
-                            <th>Status</th>
-                            <td>Unknown (possibly Sleeping)</td>
-                        </tr>
-                        <tr>
-                            <th>Status</th>
-                            <td>Neque porro quisquam est</td>
-                        </tr>
-                        <tr>
-                            <th>Abilities</th>
-                            <td>Tracking Ninja, Taoist</td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-            <!-- Character 2 -->
-            <div class="character_div">
-                <div class="flex_1 left_box">
-                    <h4 class="title">Dog (Sidekick)</h4>
-                    <p class="description">
-                        The Dog is a Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-                    </p>
-                    <span class="read_more hide" onclick="show(this)">Read more...</span>
-                    <p class="description extra">
-                        Unlike the vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                        cupiditate non provident.
-                    </p>
-                    <p class="description extra">
-                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                        fugit.Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-                        quia dolor sit amet, consectetur, adipisci
-                    </p>
-                </div>
-                <div class="flex_1 right_box">
-                    <img src="../images/characters/screenshot2.png" alt="Inside Game Screenshot">
-                    <table>
-                        <caption>Biographical info</caption>
-                        <tr>
-                            <th>Status</th>
-                            <td>Unknown (possibly Sleeping)</td>
-                        </tr>
-                        <tr>
-                            <th>Status</th>
-                            <td>Neque porro quisquam est</td>
-                        </tr>
-                        <tr>
-                            <th>Abilities</th>
-                            <td>Tracking Ninja, Taoist</td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-            <!-- Character 3 -->
-            <div class="character_div">
-                <div class="flex_1 left_box">
-                    <h4 class="title">Boy (Protagonist)</h4>
-                    <p class="description">
-                        The Boy is a young male and protagonist of <span class="red">Inside</span>. Not much is known
-                        about the boy's history,
-                        name or age.
-                    </p>
-                    <span class="read_more hide" onclick="show(this)">Read more...</span>
-                    <p class="description extra">
-                        The Boy's background is mostly shrouded in mystery. All that is known about him is that
-                        security
-                        guards throughout the game either kill or capture him when he is spotted.
-                    </p>
-                    <p class="description extra">
-                        Unlike the controlled, zombie-like people present in the game, the Boy exerts
-                        self-consciousness
-                        and the ability to critically think. Like any other human, the Boy can wa lk, run, crawl,
-                        swim,
-                        and jump. The Boy also displays a surprising amount of strength, able to climb ladders and
-                        ropes
-                        quickly, pull heavy objects, and lift his body up edges.
-                    </p>
-
-                </div>
-                <div class="flex_1 right_box">
-                    <img src="../images/characters/screenshot2.png" alt="Inside Game Screenshot">
-                    <table>
-                        <caption>Biographical info</caption>
-                        <tr>
-                            <th>Status</th>
-                            <td>Unknown (possibly Sleeping)</td>
-                        </tr>
-                        <tr>
-                            <th>Status</th>
-                            <td>Neque porro quisquam est</td>
-                        </tr>
-                        <tr>
-                            <th>Abilities</th>
-                            <td>Tracking Ninja, Taoist</td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-            <!-- Character 4 -->
-            <div class="character_div">
-                <div class="flex_1 left_box">
-                    <h4 class="title">Dog (Sidekick)</h4>
-                    <p class="description">
-                        The Dog is a Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-                    </p>
-                    <span class="read_more hide" onclick="show(this)">Read more...</span>
-                    <p class="description extra">
-                        Unlike the vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                        cupiditate non provident.
-                    </p>
-                    <p class="description extra">
-                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                        fugit.Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-                        quia dolor sit amet, consectetur, adipisci
-                    </p>
-                </div>
-                <div class="flex_1 right_box">
-                    <img src="../images/characters/screenshot2.png" alt="Inside Game Screenshot">
-                    <table>
-                        <caption>Biographical info</caption>
-                        <tr>
-                            <th>Status</th>
-                            <td>Unknown (possibly Sleeping)</td>
-                        </tr>
-                        <tr>
-                            <th>Status</th>
-                            <td>Neque porro quisquam est</td>
-                        </tr>
-                        <tr>
-                            <th>Abilities</th>
-                            <td>Tracking Ninja, Taoist</td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <p>This is a School Assignment</p>
-            <p>Made at</p>
-            <p> NEXT Uddannelse København</p>
-            <p>Copenhagen, Denmark</p>
-        </footer>
-
+        <div id="SoMe_links" class="flex_1">
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </header>
+      <main>
+        <div id="hero">
+          <img
+            id="bg"
+            src="../images/hero_bg.jpg"
+            alt="Inside Hero Background Image"
+          />
+          <img
+            id="logo"
+            src="../images/inside_logo.png"
+            alt="Inside Logo Image"
+          />
+          <!-- Hidden H1 so validatator can leave me alone -->
+          <h1 id="hiddenH1">Inside</h1>
+          <!-- End of hidden H! -->
+        </div>
+        <!-- Character 1 -->
+        <section class="character_div">
+          <div class="flex_1 left_box">
+            <h4 class="title">Boy (Protagonist)</h4>
+            <p class="description">
+              The Boy is a young male and protagonist of
+              <span class="red">Inside</span>. Not much is known about the boy's
+              history, name or age.
+            </p>
+            <span class="read_more hide" onclick="show(this)"
+              >Read more...</span
+            >
+            <p class="description extra">
+              The Boy's background is mostly shrouded in mystery. All that is
+              known about him is that security guards throughout the game either
+              kill or capture him when he is spotted.
+            </p>
+            <p class="description extra">
+              Unlike the controlled, zombie-like people present in the game, the
+              Boy exerts self-consciousness and the ability to critically think.
+              Like any other human, the Boy can wa lk, run, crawl, swim, and
+              jump. The Boy also displays a surprising amount of strength, able
+              to climb ladders and ropes quickly, pull heavy objects, and lift
+              his body up edges.
+            </p>
+          </div>
+          <div class="flex_1 right_box">
+            <img
+              src="../images/characters/screenshot2.png"
+              alt="Inside Game Screenshot"
+            />
+            <table>
+              <caption>
+                Biographical info
+              </caption>
+              <tr>
+                <th>Status</th>
+                <td>Unknown (possibly Sleeping)</td>
+              </tr>
+              <tr>
+                <th>Status</th>
+                <td>Neque porro quisquam est</td>
+              </tr>
+              <tr>
+                <th>Abilities</th>
+                <td>Tracking Ninja, Taoist</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <!-- Character 2 -->
+        <section class="character_div">
+          <div class="flex_1 left_box">
+            <h4 class="title">Dog (Sidekick)</h4>
+            <p class="description">
+              The Dog is a Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae ab illo inventore.
+            </p>
+            <span class="read_more hide" onclick="show(this)"
+              >Read more...</span
+            >
+            <p class="description extra">
+              Unlike the vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident.
+            </p>
+            <p class="description extra">
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit.Eos qui ratione voluptatem sequi
+              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+              sit amet, consectetur, adipisci
+            </p>
+          </div>
+          <div class="flex_1 right_box">
+            <img
+              src="../images/characters/screenshot2.png"
+              alt="Inside Game Screenshot"
+            />
+            <table>
+              <caption>
+                Biographical info
+              </caption>
+              <tr>
+                <th>Status</th>
+                <td>Unknown (possibly Sleeping)</td>
+              </tr>
+              <tr>
+                <th>Status</th>
+                <td>Neque porro quisquam est</td>
+              </tr>
+              <tr>
+                <th>Abilities</th>
+                <td>Tracking Ninja, Taoist</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <!-- Character 3 -->
+        <section class="character_div">
+          <div class="flex_1 left_box">
+            <h4 class="title">Boy (Protagonist)</h4>
+            <p class="description">
+              The Boy is a young male and protagonist of
+              <span class="red">Inside</span>. Not much is known about the boy's
+              history, name or age.
+            </p>
+            <span class="read_more hide" onclick="show(this)"
+              >Read more...</span
+            >
+            <p class="description extra">
+              The Boy's background is mostly shrouded in mystery. All that is
+              known about him is that security guards throughout the game either
+              kill or capture him when he is spotted.
+            </p>
+            <p class="description extra">
+              Unlike the controlled, zombie-like people present in the game, the
+              Boy exerts self-consciousness and the ability to critically think.
+              Like any other human, the Boy can wa lk, run, crawl, swim, and
+              jump. The Boy also displays a surprising amount of strength, able
+              to climb ladders and ropes quickly, pull heavy objects, and lift
+              his body up edges.
+            </p>
+          </div>
+          <div class="flex_1 right_box">
+            <img
+              src="../images/characters/screenshot2.png"
+              alt="Inside Game Screenshot"
+            />
+            <table>
+              <caption>
+                Biographical info
+              </caption>
+              <tr>
+                <th>Status</th>
+                <td>Unknown (possibly Sleeping)</td>
+              </tr>
+              <tr>
+                <th>Status</th>
+                <td>Neque porro quisquam est</td>
+              </tr>
+              <tr>
+                <th>Abilities</th>
+                <td>Tracking Ninja, Taoist</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <!-- Character 4 -->
+        <section class="character_div">
+          <div class="flex_1 left_box">
+            <h4 class="title">Dog (Sidekick)</h4>
+            <p class="description">
+              The Dog is a Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae ab illo inventore.
+            </p>
+            <span class="read_more hide" onclick="show(this)"
+              >Read more...</span
+            >
+            <p class="description extra">
+              Unlike the vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident.
+            </p>
+            <p class="description extra">
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit.Eos qui ratione voluptatem sequi
+              nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+              sit amet, consectetur, adipisci
+            </p>
+          </div>
+          <div class="flex_1 right_box">
+            <img
+              src="../images/characters/screenshot2.png"
+              alt="Inside Game Screenshot"
+            />
+            <table>
+              <caption>
+                Biographical info
+              </caption>
+              <tr>
+                <th>Status</th>
+                <td>Unknown (possibly Sleeping)</td>
+              </tr>
+              <tr>
+                <th>Status</th>
+                <td>Neque porro quisquam est</td>
+              </tr>
+              <tr>
+                <th>Abilities</th>
+                <td>Tracking Ninja, Taoist</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>This is a School Assignment</p>
+        <p>Made at</p>
+        <p>NEXT Uddannelse København</p>
+        <p>Copenhagen, Denmark</p>
+      </footer>
     </div>
     <script src="../scripts/characters.js"></script>
-
-</body>
-
+  </body>
 </html>

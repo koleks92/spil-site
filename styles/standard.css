@@ -1,247 +1,236 @@
 /* STANDARD STYLES */
 
-
 /* Hidden H1 for SEO */
 #hiddenH1 {
-    display: none;
+  display: none;
 }
 
 /* COLORS */
 :root {
-    --black: #000000;
-    --gray: #999999;
-    --white: #ffffff;
-    --light-white: #e5e5e5;
-    --red: #6C0C0E;
+  --black: #000000;
+  --gray: #999999;
+  --white: #ffffff;
+  --light-white: #e5e5e5;
+  --red: #6c0c0e;
 }
 
 /* MAIN STYLES */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
-
 body {
-    background-color: var(--black);
-    font-family: "Oswald", sans-serif;
+  background-color: var(--black);
+  font-family: "Oswald", sans-serif;
 }
 
 #wrapper {
-    background-color: var(--black);
-    max-width: 1280px;
-    margin: 0 auto;
+  background-color: var(--black);
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .red {
-    color: var(--red);
+  color: var(--red);
 }
 
 /* HEADER */
 
 header {
-    display: flex;
-    height: 86px;
+  display: flex;
+  height: 86px;
 }
 
 #nav_links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8em;
 }
 
 a {
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    color: var(--gray);
-    font-style: italic;
-    font-size: 20px;
-    padding: 0 0.5em;
-    /* To fix the line height problem */
-    border-bottom: 4px solid var(--black);
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: var(--gray);
+  font-style: italic;
+  font-size: 20px;
+  padding: 0 0.5em;
+  /* To fix the line height problem */
+  border-bottom: 4px solid var(--black);
 }
 
 .active {
-    color: var(--white);
-    padding: 0 0.5em;
-    border-bottom: 4px solid var(--red);
+  color: var(--white);
+  padding: 0 0.5em;
+  border-bottom: 4px solid var(--red);
 }
 
 #SoMe_links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: var(--gray);
-    margin-right: 6em;
-    gap: 0.8em;
-    font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--gray);
+  margin-right: 6em;
+  gap: 0.8em;
+  font-size: 20px;
 }
 
 /* HERO */
 #hero {
-    position: relative;
+  position: relative;
 }
 
-
-
 #bg {
-    position: relative;
+  position: relative;
 }
 
 #logo {
-    position: absolute;
-    max-width: 692px;
-    left: 8em;
-    top: 2.5em;
+  position: absolute;
+  max-width: 692px;
+  left: 8em;
+  top: 2.5em;
 }
 
 /* MAIN */
 
 main {
-    display: flex;
-    flex-direction: column;
-    max-width: 1040px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 .title {
-    color: var(--light-white);
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 1.5em;
+  color: var(--light-white);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 1.5em;
 }
 
 /* FOOTER */
 
 footer {
-    display: flex;
-    flex-direction: column;
-    margin: 10em auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 300;
-    color: var(--gray)
+  display: flex;
+  flex-direction: column;
+  margin: 10em auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--gray);
 }
 
 /* FLEX CLASSES */
 
 .flex_1 {
-    flex: 1;
+  flex: 1;
 }
 
 .flex_2 {
-    flex: 2;
+  flex: 2;
 }
 
 .flex_3 {
-    flex: 3;
+  flex: 3;
 }
 
 .flex_4 {
-    flex: 4;
+  flex: 4;
 }
 
 .flex_5 {
-    flex: 5;
+  flex: 5;
 }
 
 .flex_6 {
-    flex: 6;
+  flex: 6;
 }
 
 .flex_8 {
-    flex: 8;
+  flex: 8;
 }
 
 .flex_9 {
-    flex: 9;
+  flex: 9;
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width:1199px) {
-    #wrapper {
-        max-width: 1199px;
-    }
+@media screen and (max-width: 1199px) {
+  #wrapper {
+    max-width: 1199px;
+  }
 
-    #nav_links {
-        margin-left: 1.2em;
-    }
+  #nav_links {
+    margin-left: 1.5em;
+  }
 
-    #SoMe_links {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        color: var(--gray);
-        margin-right: 1.2em;
-        gap: 1px;
-        font-size: 20px;
-    }
+  #SoMe_links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--gray);
+    margin-right: 1.2em;
+    gap: 1px;
+    font-size: 20px;
+  }
 
-    #logo {
-        position: absolute;
-        max-width: 55%;
-        left: 1.4em;
-        top: 1.4em;
-    }
+  #logo {
+    position: absolute;
+    max-width: 55%;
+    left: 1.4em;
+    top: 1.4em;
+  }
 
-    main {
-        padding: 0 1.4em;
-    }
-
-    footer {
-        margin: 3em auto;
-    }
-
+  footer {
+    margin: 3em auto;
+  }
 }
 
-@media screen and (max-width:599px) {
-    header {
-        flex-direction: column-reverse;
-        height: auto;
-    }
+@media screen and (max-width: 599px) {
+  header {
+    flex-direction: column-reverse;
+    height: auto;
+  }
 
-    #nav_links {
-        flex-direction: column;
-        margin-left: 0;
-        gap: 1em;
-    }
+  #nav_links {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1em;
+  }
 
-    a {
-        font-size: 26px;
-    }
+  a {
+    font-size: 26px;
+  }
 
-    #SoMe_links {
-        justify-content: center;
-        margin: 1em 0 1em;
-        font-size: 20px;
-        gap: 1.5em;
-    }
+  #SoMe_links {
+    justify-content: center;
+    margin: 1em 0 1em;
+    font-size: 20px;
+    gap: 1.5em;
+  }
 
-    #hero {
-        display: flex;
-        justify-content: center;
-    }
+  #hero {
+    display: flex;
+    justify-content: center;
+  }
 
-    #bg {
-        display: none;
-    }
+  #bg {
+    display: none;
+  }
 
-    #logo {
-        position: relative;
-        width: 100%;
-        margin: 3em 1em;
-        left: auto;
-        top: auto;
-        max-width: 100%;
-    }
-
-
+  #logo {
+    position: relative;
+    width: 100%;
+    margin: 3em 1em;
+    left: auto;
+    top: auto;
+    max-width: 100%;
+  }
 }

@@ -48,6 +48,10 @@ header {
   height: 86px;
 }
 
+#burger_button {
+  display: none;
+}
+
 #nav_links {
   display: flex;
   justify-content: space-between;
@@ -205,9 +209,34 @@ footer {
   }
 
   #nav_links {
+    display: flex;
     flex-direction: column;
-    margin-left: 0;
+    position: fixed;
+    top: 0em;
+    right: 0;
     gap: 1em;
+    border-bottom: none;
+    justify-content: flex-end;
+    padding-bottom: 4em;
+    z-index: 2;
+    background-color: var(--black);
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    transition: width 1s ease-in-out;
+  }
+
+  #nav_links.active {
+    width: 50%;
+  }
+
+  #burger_button {
+    display: block;
+    background-color: var(--black);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
   }
 
   a {

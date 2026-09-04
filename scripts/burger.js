@@ -4,6 +4,5 @@ const nav = document.querySelector("#nav_links");
 const button = document.querySelector("#burger_button");
 
 button.addEventListener("click", (event) => {
-  console.log("Click");
   nav.classList.toggle("active");
 });

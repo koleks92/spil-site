@@ -212,7 +212,8 @@ footer {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0em;
+    top: 70%;
+    border-radius: 5% 0 0 0;
     right: 0;
     gap: 1em;
     border-bottom: none;
@@ -220,7 +221,7 @@ footer {
     padding-bottom: 4em;
     z-index: 2;
     background-color: var(--black);
-    height: 100%;
+    height: 30%;
     width: 0;
     overflow: hidden;
     transition: width 1s ease-in-out;
@@ -228,6 +229,8 @@ footer {
 
   #nav_links.active {
     width: 50%;
+    border-left: 2px solid var(--gray);
+    border-top: 2px solid var(--gray);
   }
 
   #burger_button {
